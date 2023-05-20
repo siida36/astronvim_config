@@ -1,2 +1,3 @@
 # astronvim_config
-siida's setting for AstroNvim.
+
+siida36's setting for AstroNvim.
