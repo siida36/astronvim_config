@@ -1,8 +1,7 @@
 return {
   vim.api.nvim_create_autocmd("VimEnter", {
-    command = "set nornu nonu | Neotree toggle",
+    callback = function()
+      vim.cmd.Neotree "show"
+    end,
   }),
-  vim.api.nvim_create_autocmd("BufEnter", {
-    command = "set rnu nu",
-  })
 }
