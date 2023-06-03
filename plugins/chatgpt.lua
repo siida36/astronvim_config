@@ -5,6 +5,9 @@ return {
     config = function()
       require("chatgpt").setup(
       {
+        openai_params = {
+          model = "gpt-4",
+        },
         actions_paths = {"~/.config/nvim/lua/user/configs/ChatGPT.nvim/actions.json"}
       }
     )
